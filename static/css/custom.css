@@ -58,9 +58,15 @@ hr {
     text-decoration: underline;
 }
 
+@font-face {
+  /* A font by Jos Buivenga (exljbris) -> www.exljbris.com */
+  font-family: myFontinBold;
+  src: url(Fontin-Bold.otf);
+}
+
 .header h1.name {
-    font-weight: 600;
-    font-size: 2.1875rem;
+    font-size: 3rem;
+    font-family: myFontinBold;
     color: #333333;
 }
 
